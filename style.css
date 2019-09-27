@@ -1,0 +1,55 @@
+body, html{
+	background-color: black;
+  width: 100%;
+  height: 100%; 
+}
+
+
+header.sect1{
+	background-position: center;
+	background-image: url(back.jfif);
+	background-size: cover;
+	height: 100%;
+}
+header.sect1 h1{
+	margin-top: 350px;
+	font-family: "Dancing Script";
+	color: #C28D07;
+	
+}
+.btn{
+	 font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+.btn-outline-subscribe{
+	background-color: #08670D;
+	color: #39E50A;
+	border: solid #0C8113 2px;
+	transition: background-color 3s;
+}
+.btn-outline-subscribe:hover{
+	background-color: #39E50A;
+	color: #08670D;
+	border: solid #0C8113 2px;
+}
+
+.about{
+	padding-bottom: 10px;
+}
+.card-header{
+	display: flex;
+	justify-content: center;
+}
+.card{
+	background-color: #666261;
+	font-size: 2rem;
+}
+.p1{
+	font-size: 3rem;
+	font-family: "Shadows Into Light";
+}
+
+.blockquote-footer{
+	color: #C28D07;
+}
